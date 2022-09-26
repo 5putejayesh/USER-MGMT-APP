@@ -1,0 +1,97 @@
+{"properties": [
+  {
+    "name": "usermgmt-api.messages.reg-success",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.reg-success'"
+  },
+  {
+    "name": "useradmin-app.msg",
+    "type": "java.lang.String",
+    "description": "A description for 'useradmin-app.msg'"
+  },
+  {
+    "name": "usermgmt-api.messages.regFailed",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.regFailed'"
+  },
+  {
+    "name": "usermgmt-api.messages.userActivationSuccess",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.userActivationSuccess'"
+  },
+  {
+    "name": "usermgmt-api.messages.userActivationFailed",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.userActivationFailed'"
+  },
+  {
+    "name": "usermgmt-api.messages.userDeleted",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.userDeleted'"
+  },
+  {
+    "name": "usermgmt-api.messages.userNotDeleted",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.userNotDeleted'"
+  },
+  {
+    "name": "usermgmt-api.messages.userStatusChnaged",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.userStatusChnaged'"
+  },
+  {
+    "name": "usermgmt-api.messages.userStatusNotChnaged",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.userStatusNotChnaged'"
+  },
+  {
+    "name": "usermgmt-api.messages.loginSuccess",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.loginSuccess'"
+  },
+  {
+    "name": "usermgmt-api.messages.loginFailed",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.loginFailed'"
+  },
+  {
+    "name": "usermgmt-api.messages.forgotPwdSuccess",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.forgotPwdSuccess'"
+  },
+  {
+    "name": "usermgmt-api.messages.forgotPwdFailed",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.forgotPwdFailed'"
+  },
+  {
+    "name": "usermgmt-api.regmail.mail-subject",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.regmail.mail-subject'"
+  },
+  {
+    "name": "usermgmt-api.regmail.mailBodyFile",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.regmail.mailBodyFile'"
+  },
+  {
+    "name": "usermgmt-api.messages.loginFailedActivation",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.loginFailedActivation'"
+  },
+  {
+    "name": "usermgmt-api.messages.loginFailedInvalid",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.messages.loginFailedInvalid'"
+  },
+  {
+    "name": "usermgmt-api.recovermail.mail-subject",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.recovermail.mail-subject'"
+  },
+  {
+    "name": "usermgmt-api.recovermail.mailBodyFile",
+    "type": "java.lang.String",
+    "description": "A description for 'usermgmt-api.recovermail.mailBodyFile'"
+  }
+]}

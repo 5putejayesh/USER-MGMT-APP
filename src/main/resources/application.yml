@@ -1,0 +1,52 @@
+spring:
+  datasource:
+    password: Db password
+    url: DB url
+    username: db user name
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: your mail address
+    password: app password of your mail address
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            
+usermgmt-api: 
+  messages:
+    regSuccess: Registration Success Successfull and email sent to mail
+    regFailed: Registration Failed
+    userActivationSuccess: Account activated
+    userActivationFailed: Invalid Temporary Password
+    userDeleted: User deleted
+    userNotDeleted: User not deleted
+    userStatusChnaged: Status Changed
+    userStatusNotChnaged: Status failed to change
+    loginSuccess: Success
+    loginInactive: User Account is not activated..
+    loginInvalid: invalid Credentials
+    forgotPwdSuccess: Password sent to your registered email
+    forgotPwdFailed: Invalid Email
+    
+  regmail:
+    mailSubject: Your registration is success
+    mailBodyFile: mailbody/REG-EMAIL-BODY.txt
+    
+  recovermail:
+    mailSubject: Forgot Password
+    mailBodyFile: mailbody/RECOVER-PWD-BODY.txt
+    
